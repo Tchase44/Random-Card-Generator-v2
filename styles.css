@@ -1,0 +1,86 @@
+body{
+	background-color: darkgreen;
+	color: lightgrey;
+}
+.size{
+	max-width: 720px;
+}
+.playBtns {
+	box-shadow: 0px 1px 0px 0px #1c1b18;
+	background:linear-gradient(to bottom, #eae0c2 5%, #ccc2a6 100%);
+	background-color:#eae0c2;
+	border-radius:15px;
+	border:2px solid #333029;
+	display:inline-block;
+	cursor:pointer;
+	color:#505739;
+	font-family:Arial;
+	font-size:14px;
+	font-weight:bold;
+	padding:12px 16px;
+	text-decoration:none;
+	text-shadow:0px 1px 0px #ffffff;
+}
+.playBtns:hover {
+	background:linear-gradient(to bottom, #ccc2a6 5%, #eae0c2 100%);
+	background-color:#ccc2a6;
+}
+.playBtns:active {
+	position:relative;
+	top:1px;
+}
+.cardBox{
+	float: left;
+	display: inline-block;
+	box-sizing: border-box;
+	width: 50px;
+	height: 80px;
+	background-color: white;
+	text-align: center;
+	font-weight: bold;
+	line-height: 1px;
+	font-size: 20pt;
+	margin-left: 5px;
+	margin-top: 5px;
+	font-family: sans-serif;
+}
+@media(max-width: 499px){
+	#title{
+	width: 99%;
+	margin-left: auto;
+	margin-right: auto;
+	text-align: center;
+	}
+	#title h1{
+		font-family: sans-serif;
+		font-size: 30pt;
+		text-shadow: 5px 5px 5px black;
+	}
+	#title p{
+		font-size: 13pt;
+		text-shadow: 3px 3px 5px black;
+	}
+	.playBtns{
+		width: 55%;
+		margin-top: 10px;
+	}
+	.cardBox{
+		margin-top: 15px;
+	}
+}
+@media(min-width: 500px){
+#title{
+	width: 99%;
+	margin-left: auto;
+	margin-right: auto;
+	text-align: center;
+}
+
+#playmat{
+	width: 70%;
+	margin-left: auto;
+	margin-right: auto;
+	margin-top: 50px;
+}
+
+}

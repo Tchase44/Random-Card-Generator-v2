@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Random Card Generator v2</title>
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<meta charset="utf-8">
+	<meta name="discription" content="a simple random card generator">
+	<link rel="stylesheet" type="text/css" href="styles.css">
+</head>
+<body>
+	<header>
+		<div id="title" class="size"><h1>Pick a Card</h1>
+			<p>Shuffle will clear the table and shuffle the deck<br>
+			Random draws will also clear the table</p>
+			<div id="btns">
+				<button id="shuff" class="playBtns">Shuffle</button>
+				<button id="deal" class="playBtns">Deal From Top</button>
+				<button id="random" class="playBtns">Draw a Random Card</button>
+			</div>
+		</div>
+	</header>
+	<main>
+		<div id="playmat" class="size">
+			<div id="cardBox"></div>
+		</div>
+	</main>
+<script src="https://code.jquery.com/jquery-3.1.1.min.js"></script>
+<script type="text/javascript" src="deckBuilding.js"></script>
+</body>
+</html>
