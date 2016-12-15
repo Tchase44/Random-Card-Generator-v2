@@ -75,7 +75,15 @@ body{
 	margin-right: auto;
 	text-align: center;
 }
-
+#title h1{
+	font-size: 40pt;
+	text-shadow: 5px 5px 5px black;
+	font-family: sans-serif;
+}
+#title p{
+	font-size: 13pt;
+	text-shadow: 3px 3px 5px black;
+}
 #playmat{
 	width: 70%;
 	margin-left: auto;
